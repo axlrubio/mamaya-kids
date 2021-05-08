@@ -1,0 +1,16 @@
+#colcentro{
+    grid-column-start: 1 !important;
+}
+
+#contenedor_productos{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.producto:nth-child(even), .producto:nth-child(odd){
+    grid-column-start: initial !important;
+    grid-column-end: initial !important;
+}
+
+.producto figure {
+    height: 250px;
+}
